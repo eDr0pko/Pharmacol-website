@@ -27,8 +27,8 @@ body {
     padding: 8px 0;
     border-bottom: 1px solid #ddd;
 }
-    .qheader-top-left span,
-    .qheader-top-right span {
+.qheader-top-left span,
+.qheader-top-right span {
     margin-right: 20px;
     color: #444;
 }
