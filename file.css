@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url('./asset/Lexend/static/Lexend-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Lexend';
+    src: url('./asset/Lexend/static/Lexend-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+/* pour l'instant que normal et gras */
+  
+body {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+}
+
+footer > #ehaut{
+    background-color:#3C74A8E8;
+    height: 485px;
+}
+
+footer > #ebas{
+    background-color:#3C74A8;
+    height: 83px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #97A5B7;
+}
