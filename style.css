@@ -137,7 +137,8 @@ body {
 .qtitre-prestations {
     font-size: 48px;
     font-weight: bold;
-    margin-left: 500px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: white;
 }
