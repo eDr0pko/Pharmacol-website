@@ -58,9 +58,17 @@ body {
 .qheader-right {
     display: flex;
     align-items: right;
-    gap: 100px;
+    gap: 10px;
     margin-left: 600px;
-    text-align: left;
+    margin-right: auto;
+    text-align: center;
+}
+.qseparator {
+    width: 1px;
+    height: 25px;
+    background-color: white;
+    margin: 0 10px;
+    margin-top: 5px;
 }
 .qcontact-phone {
     display: flex;
@@ -68,10 +76,10 @@ body {
     gap: 15px;
 }
 .qcontact-phone i {
-    font-size: 22px;
+    font-size: 25px;
 }
 .qcontact-phone p {
-    font-size: 14px;
+    font-size: 12px;
     margin: 0;
 }
 .qcontact-phone strong {
@@ -81,12 +89,14 @@ body {
     font-size: 18px;
     cursor: pointer;
     margin-top: 8px;
+    margin-right: 100px;
 }
 .qsocial-icons i {
     margin-left: 15px;
     cursor: pointer;
     font-size: 16px;
     margin-top: 8px;
+    color: white;
 }
 
 /* --- NAVBAR --- */
@@ -95,14 +105,12 @@ body {
     position: relative;
     z-index: 2;
 }
-
 .qnavbar .qcontainer {
     max-width: 900px;
     margin: 0 auto;
     background: rgba(256, 256, 256, 1);
     padding: 10px 20px;
 }
-
 .qnav-links {
     display: flex;
     align-items: center;
@@ -110,14 +118,49 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    position: relative;
 }
-
 .qnav-links li a {
     color: black;
     text-decoration: none;
     padding: 8px 12px;
 }
-
+.qdropdown {
+    position: relative;
+}
+.qdropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    min-width: 160px;
+    z-index: 10;
+}
+.qdropdown-menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+.qdropdown-menu li a:hover {
+    background-color: #f4f4f4;
+}
+.qdropdown:hover .qdropdown-menu {
+    display: block;
+}
+.qlogo-nav {
+    margin-right: auto;
+}
+.qnav-links li a.active {
+    color: #437305;
+    font-weight: bold;
+}
 
 /* --- HERO --- */
 .qhero-wrapper {
@@ -135,7 +178,7 @@ body {
 }
 
 .qtitre-prestations {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
