@@ -44,7 +44,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    }
+}
 
 /* --- HEADER MAIN --- */
 .qheader-main {
@@ -57,13 +57,15 @@ body {
 }
 .qheader-right {
     display: flex;
-    align-items: center;
-    gap: 30px;
+    align-items: right;
+    gap: 100px;
+    margin-left: 680px;
+    text-align: left;
 }
 .qcontact-phone {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 .qcontact-phone i {
     font-size: 22px;
@@ -78,11 +80,13 @@ body {
 .qsearch i {
     font-size: 18px;
     cursor: pointer;
+    margin-top: 8px;
 }
 .qsocial-icons i {
     margin-left: 15px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 8px;
 }
 
 /* --- NAVBAR --- */
@@ -93,7 +97,7 @@ body {
 }
 
 .qnavbar .qcontainer {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
     background: rgba(256, 256, 256, 1);
     padding: 10px 20px;
@@ -121,22 +125,21 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-  }
+}
   
-  /* Supprime le background ici, car il est géré dans le wrapper */
-  .qhero-prestations {
+.qhero-prestations {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px; /* Ajustable selon effet souhaité */
-  }
-  
-  .qtitre-prestations {
+    height: 200px;
+}
+
+.qtitre-prestations {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
     color: white;
-  }
+}
   
 /* --- MAIN CONTENT --- */
 .qmain-content {
