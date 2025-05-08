@@ -86,44 +86,36 @@ body {
 }
 
 /* --- NAVBAR --- */
-/* Limiter la largeur de la navbar */
 .qnavbar {
-
     padding: 0px 0;
     position: relative;
-    z-index: 2; /* pour passer au-dessus de l’image */
-  }
-  
-  /* Centrer et limiter la largeur de son contenu */
-  .qnavbar .qcontainer {
-    max-width: 1100px;  /* ajustable à ton goût */
+    z-index: 2;
+}
+
+.qnavbar .qcontainer {
+    max-width: 1000px;
     margin: 0 auto;
-    background: rgba(256, 256, 256, 1);  /* optionnel : fond semi-transparent */
-    border-radius: 10px;
+    background: rgba(256, 256, 256, 1);
     padding: 10px 20px;
-  }
-  
-  /* Styliser les liens de navigation */
-  .qnav-links {
+}
+
+.qnav-links {
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  .qnav-links li a {
+}
+
+.qnav-links li a {
     color: black;
     text-decoration: none;
     padding: 8px 12px;
-  }
-  
+}
 
-  
 
 /* --- HERO --- */
-
 .qhero-wrapper {
     background-image: url("images/Page contact/medicine-capsules-global-health-with-geometric-pattern-digital-remix.jpg"); /* à adapter */
     background-size: cover;
