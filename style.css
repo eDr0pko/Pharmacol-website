@@ -59,7 +59,7 @@ body {
     display: flex;
     align-items: right;
     gap: 100px;
-    margin-left: 680px;
+    margin-left: 600px;
     text-align: left;
 }
 .qcontact-phone {
@@ -137,6 +137,7 @@ body {
 .qtitre-prestations {
     font-size: 48px;
     font-weight: bold;
+    margin-left: 500px;
     text-align: center;
     color: white;
 }
