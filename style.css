@@ -27,8 +27,8 @@ body {
     padding: 8px 0;
     border-bottom: 1px solid #ddd;
 }
-    .qheader-top-left span,
-    .qheader-top-right span {
+.qheader-top-left span,
+.qheader-top-right span {
     margin-right: 20px;
     color: #444;
 }
@@ -44,7 +44,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    }
+}
 
 /* --- HEADER MAIN --- */
 .qheader-main {
@@ -57,13 +57,15 @@ body {
 }
 .qheader-right {
     display: flex;
-    align-items: center;
-    gap: 30px;
+    align-items: right;
+    gap: 100px;
+    margin-left: 680px;
+    text-align: left;
 }
 .qcontact-phone {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 .qcontact-phone i {
     font-size: 22px;
@@ -78,73 +80,66 @@ body {
 .qsearch i {
     font-size: 18px;
     cursor: pointer;
+    margin-top: 8px;
 }
 .qsocial-icons i {
     margin-left: 15px;
     cursor: pointer;
     font-size: 16px;
+    margin-top: 8px;
 }
 
 /* --- NAVBAR --- */
-/* Limiter la largeur de la navbar */
 .qnavbar {
-
     padding: 0px 0;
     position: relative;
-    z-index: 2; /* pour passer au-dessus de l’image */
-  }
-  
-  /* Centrer et limiter la largeur de son contenu */
-  .qnavbar .qcontainer {
-    max-width: 1100px;  /* ajustable à ton goût */
+    z-index: 2;
+}
+
+.qnavbar .qcontainer {
+    max-width: 900px;
     margin: 0 auto;
-    background: rgba(256, 256, 256, 1);  /* optionnel : fond semi-transparent */
-    border-radius: 10px;
+    background: rgba(256, 256, 256, 1);
     padding: 10px 20px;
-  }
-  
-  /* Styliser les liens de navigation */
-  .qnav-links {
+}
+
+.qnav-links {
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  .qnav-links li a {
+}
+
+.qnav-links li a {
     color: black;
     text-decoration: none;
     padding: 8px 12px;
-  }
-  
+}
 
-  
 
 /* --- HERO --- */
-
 .qhero-wrapper {
     background-image: url("images/Page contact/medicine-capsules-global-health-with-geometric-pattern-digital-remix.jpg"); /* à adapter */
     background-size: cover;
     background-position: center;
     color: white;
-  }
+}
   
-  /* Supprime le background ici, car il est géré dans le wrapper */
-  .qhero-prestations {
+.qhero-prestations {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px; /* Ajustable selon effet souhaité */
-  }
-  
-  .qtitre-prestations {
+    height: 200px;
+}
+
+.qtitre-prestations {
     font-size: 48px;
     font-weight: bold;
     text-align: center;
     color: white;
-  }
+}
   
 /* --- MAIN CONTENT --- */
 .qmain-content {
