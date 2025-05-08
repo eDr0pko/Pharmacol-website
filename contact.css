@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Lexend';
+    src: url('./asset/Lexend/static/Lexend-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('./asset/Lexend/static/Lexend-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('./asset/Lexend/static/Lexend-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lexend';
+    src: url('./asset/Lexend/static/Lexend-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*         BASE             */
+
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lexend', sans-serif;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background: none;
+    border: none;
+}
+
+.asset {
+    color: #437305;
+}
+
+#eformulaire{
+    background-color: cadetblue;
+    height: 700px;
+    width: 800px;
+}
+
+#eformulaire h4{
+    font-size: 20px;
+    font-family: lexend;
+    font-weight: 500;
+    letter-spacing: 10%;
+    color: #437305;
+}
+
+#eformulaire h2{
+    font-size: 36px;
+    font-family: lexend;
+    font-weight: 700;
+    letter-spacing: 10%;
+    color: black;
+    padding-bottom: 40px;
+}
+
+#eformulaire textarea{
+    height: 400px;
+    max-width: 645px;
+
+    font-size: 16px;
+    padding-left: 25px;
+    padding-top: 20px;
+    border: none;
+    border-radius: none;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+#eformulaire input{
+    height: 50px;
+    width: 300px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    font-size: 16px;
+    padding-left: 25px;
+    border: none;
+    outline: none;  
+}
+
+#eformulaire button{
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color:#437305;
+    color: white;
+}
+
+#einfo{
+    background-color: #437305;
+    height: 700px;
+    width: 420px;
+}
+
+#einfo .e2c{
+    display: flex;
+    flex-direction: row;
+}
+
+#einfo .e2l{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
