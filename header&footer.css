@@ -236,16 +236,7 @@ a {
     color: #444;
 }
 
-
-
-/*        FONT            */
-
-
-
-
-
 /*         FOOTER           */
-
 
 footer > #ehaut {
     background-color: #3C74A8E8;
@@ -262,6 +253,7 @@ footer > #ehaut {
     width: 340px;
     display: flex;
     flex-direction: column;
+    margin-right: 40px;
 }
 
 #ecol1 > img {
@@ -272,6 +264,7 @@ footer > #ehaut {
 }
 
 #ecol1 #etxtinput {
+    padding-left: 10px;
     align-self: center;
 }
 
@@ -331,7 +324,7 @@ footer > #ehaut {
     height: 14px;
     font-size: 16px;
     font-weight: 500;
-    color: #97A5B7;
+    color: white;
 }
 
 /* ----- Colonne 3 : Contact + Réseaux sociaux ----- */
@@ -345,7 +338,7 @@ footer > #ehaut {
 #ecol3 p {
     font-size: 16px;
     font-weight: 500;
-    color: #97A5B7;
+    color: white;
     margin-bottom: 10px;
 }
 
@@ -428,7 +421,7 @@ footer > #ehaut {
 #ecol4 li {
     font-size: 16px;
     font-weight: 500;
-    color: #97A5B7;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -440,7 +433,7 @@ footer > #ebas {
     height: 83px;
     font-size: 16px;
     font-weight: 500;
-    color: #97A5B7;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
