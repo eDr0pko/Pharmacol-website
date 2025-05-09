@@ -170,7 +170,7 @@ a {
 }
 .qdropdown-menu {
     position: absolute;
-    top: 100%;
+    top: 125%;
     left: 0;
     background: white;
     border: 1px solid #ccc;
